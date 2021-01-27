@@ -5,10 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  
+  <div><App name="Atif Javed" age={28} class="2nd year" / > </div>
+  ,document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

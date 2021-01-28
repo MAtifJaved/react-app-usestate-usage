@@ -23,7 +23,7 @@ function ageUpdated(){
 //this line was used in ES6 for concatenation of string
 //let hello= 'hello' + islit + 'world';      
 
-//(2)
+//(2) ES6 template string
 // now the following line is used
 // let hello= 'hello ${islit} world' ;
 
@@ -45,7 +45,7 @@ return (
                 console.log("age is being updated");
                 setAge(++age);
                 }} > 
-                <strong>Increaseage</strong> 
+                <strong>Increase Age</strong> 
         </button>
 
         <br/>
